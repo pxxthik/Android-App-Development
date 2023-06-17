@@ -19,6 +19,9 @@ public class MainActivity extends AppCompatActivity {
         Intent intentNext;
         intentNext = new Intent(MainActivity.this, SecondActivity.class);
 
+        intentNext.putExtra("title", "Home");
+        intentNext.putExtra("rollNumber", 8400);
+
         btnNext.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

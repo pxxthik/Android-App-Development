@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Intent Passing</string>
+    <string name="roll_number">Roll Number is: </string>
 </resources>
